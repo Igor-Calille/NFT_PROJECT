@@ -1,0 +1,160 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "armazenamentoDadosArray",
+				"outputs": [
+					{
+						"internalType": "contract ArmazenamentoDados",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "createArmazenamentoDadosContract",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_armazenamentoDadosIndex",
+						"type": "uint256"
+					}
+				],
+				"name": "sfGetMateria",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_armazenamentoDadosIndex",
+						"type": "uint256"
+					}
+				],
+				"name": "sfGetNota",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_armazenamentoDadosIndex",
+						"type": "uint256"
+					}
+				],
+				"name": "sfGetPassou",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_armazenamentoDadosIndex",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_nomeMateria",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_nota",
+						"type": "uint256"
+					}
+				],
+				"name": "sfStore",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ExEscolar/ArmazenamentoDadosFactory.sol": "ArmazenamentoDadosFactory"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ExEscolar/ArmazenamentoDados.sol": {
+			"keccak256": "0xb4529d2398208570cf6d0e3bd979eb54d511b344ebe373d9098fd908d609c731",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://15fbec9b3c9e820a15bbc6f87a21f50ff0f11fdfd8cfbc9953ec1881b9a3b68b",
+				"dweb:/ipfs/QmUowGVQLB9bZxoudtBg2f53msScCAmKvSDgo5SUosd3CG"
+			]
+		},
+		"ExEscolar/ArmazenamentoDadosFactory.sol": {
+			"keccak256": "0x9f50a4aa86a888434d40cd586bacaa0820f2af47443b90b7f9b4f79981d4f461",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c6869b4659670e5167e8107bd6585349f4f42e7a3a151b7f0f163a8bddf74ef2",
+				"dweb:/ipfs/QmRwN4iy7q2iJsDDi7BJqDXK3SwX1NmDWTSYY7e57TSgnN"
+			]
+		}
+	},
+	"version": 1
+}
